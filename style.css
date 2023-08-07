@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* margin: 1rem 5%; */
+    /* background-color: greenyellow; */
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+/* .container{
+    margin: 0 2rem;
+} */
+
+.header-first{
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #CBAB81;
+    color: #fff;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img{
+    height: 28px;
+    width: 28px;
+}
+
+.navbar li{
+    margin: 0 0.5rem;
+}
+
+.navbar-second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 8%;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.navbar-second img{
+    height: 28px;
+    width: 28px;
+}
+
+.navbar-second input{
+    width: 25rem;
+    border: 2px solid #FF4C11;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+}
+
+.logo{
+    font-family: poppins;
+    color: #00C9C4;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.nav-links{
+    padding: 1rem 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.3rem;
+    background-color: #fff;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    height: 489px;
+    /* justify-content: center; */
+}
+
+.banner img{
+    width: 25%;
+}
+
+.left-box{
+    background-image: url("logos/Rectangle\ 2.png");
+    /* height: 300px; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 12rem;
+}
+
+.left-box p{
+    margin: 2rem 0;
+}
+
+.btn{
+    border: none;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    color: #FF4C11;
+    text-transform: uppercase;
+}
+
+.right-box{
+    background-image: url("logos/product-backdrop-empty-wooden-table-with-concrete-wall-plant-shadow\ 1.png");
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1rem;
+    margin-top: -62px;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-img{
+    width: 124px;
+    height: 124px;
+    border: 4px solid #FFAC01;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.feature-img img{
+    width: 60%;
+}
+
+.sale-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+    padding: 0 8%;
+}
+
+.sale-section h2{
+    margin: 1rem 0 0.3rem;
+    font-size: 2.2rem;
+}
+
+.sale-section p{
+    color: #5A5A5A;
+}
+
+.sale-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5%;
+    margin: 3rem;
+}
+
+.sale-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D1D1D1;
+    padding: 2rem;
+}
+
+.sale-item img{
+    margin-bottom: 0.5rem;
+    /* width: 100%; */
+    height: 100px;
+}
+
+.sale-item h4{
+    margin: 1rem 0;
+}
+
+.sale-btn{
+    border: none;
+    background-color: #FFAC01;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+
+
