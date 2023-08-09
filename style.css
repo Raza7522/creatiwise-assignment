@@ -83,6 +83,10 @@ li {
   background-color: #fff;
 }
 
+.nav-links li{
+    cursor: pointer;
+}
+
 /*! -------------------------Banner-Section--------------------------- */
 
 .banner {
